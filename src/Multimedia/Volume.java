@@ -1,4 +1,6 @@
 package Multimedia;
 
-public class Volume {
+public interface Volume {void play();
+    void alzaVolume();
+    void abbassaVolume();
 }
