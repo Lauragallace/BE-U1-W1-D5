@@ -1,5 +1,5 @@
 package Multimedia;
 
-public interface Luminosita {void aumentaLuminosita();
-    void diminuisciLuminosita();
+public interface Luminosita {void alzaLuminosita();
+    void abbassaLuminosita();
 }
