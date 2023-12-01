@@ -4,7 +4,7 @@ package Multimedia;
     static int volume = 5;
     int durata;
 
-    public RegistrazioneAudio(String _titolo, int _durata) {
+    public RegistrazioneAudio(String _titolo, int _durata, int volume) {
         super(_titolo);
         this.durata = _durata;
     }
