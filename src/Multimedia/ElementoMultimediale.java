@@ -1,11 +1,11 @@
 package Multimedia;
 
-public class ElementoMultimediale { private String titolo;
+public abstract class ElementoMultimediale {
+    String titolo;
 
-    ElementoMultimediale(String titolo){
-        this.titolo = titolo;
+    public ElementoMultimediale (String titolo){
+        this.titolo= titolo;
     }
-
     public String getTitolo() {
         return titolo;
     }
